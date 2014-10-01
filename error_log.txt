@@ -1,0 +1,10 @@
+[01-Oct-2014 14:55:23 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 39
+[01-Oct-2014 14:55:23 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 40
+[01-Oct-2014 14:55:23 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 41
+[01-Oct-2014 14:55:31 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 39
+[01-Oct-2014 14:55:31 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 40
+[01-Oct-2014 14:55:31 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 41
+[01-Oct-2014 14:55:58 America/Sao_Paulo] PHP Notice:  Undefined variable: result in /home/paulo/CursoPHP/AreaAdministrativa2/Core/Fixture.php on line 32
+[01-Oct-2014 15:05:30 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 39
+[01-Oct-2014 15:05:30 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 40
+[01-Oct-2014 15:05:30 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 41

@@ -29,6 +29,8 @@ class Fixture extends Conexao
             }
         }
 
+        $result = (isset($result) ? $result : null);
+
         return $result;
     }
 
