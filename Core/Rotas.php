@@ -63,6 +63,9 @@ class Rotas
         $this->setApp();
     }
 
+    /**
+     * retorna o caminho da pasta do APP
+     */
     private function setApp()
     {
         $app = ucfirst($this->url[0]);
