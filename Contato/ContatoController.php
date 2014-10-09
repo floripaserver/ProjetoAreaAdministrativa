@@ -16,23 +16,24 @@ class ContatoController extends Controller
     public function index()
     {
 
-        if ($_POST) {
-            if ($this->getParams('nome') &&
-                $this->getParams('email') &&
-                $this->getParams('assunto') &&
-                $this->getParams('menssagem')
-            ) {
-                $dados = [
-                    'nome' => $this->getParams('nome'),
-                    'email' => $this->getParams('email'),
-                    'assunto' => $this->getParams('assunto'),
-                    'menssagem' => $this->getParams('menssagem')
-                ];
+        $dados = [
+            'nome' => trim($this->getParams('nome')),
+            'email' => trim($this->getParams('email')),
+            'assunto' => trim($this->getParams('assunto')),
+            'menssagem' => trim($this->getParams('menssagem'))
+        ];
 
-                $this->setNome($this->getParams('nome'));
-                $this->setEmail($this->getParams('email'));
-                $this->setAssunto($this->getParams('assunto'));
-                $this->setMenssagem($this->getParams('menssagem'));
+        if ($_POST) {
+            if ($dados['nome'] &&
+                $dados['email'] &&
+                $dados['assunto'] &&
+                $dados['menssagem']
+            ) {
+
+                $this->setNome($dados['nome']);
+                $this->setEmail($dados['email']);
+                $this->setAssunto($dados['assunto']);
+                $this->setMenssagem($dados['menssagem']);
 
                 $statusEmail = $this->enviarEmail();
 

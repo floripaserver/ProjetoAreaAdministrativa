@@ -4,7 +4,7 @@
         <small>Pagina de contato</small>
     </h1>
     <ol class="breadcrumb">
-        <li><a href="../"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="/index"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Contato</li>
     </ol>
 </section>
@@ -27,20 +27,23 @@
 
             </div>
             <div class="box-body">
-                <form class="form" action="contato" method="post">
+                <form class="form" action="/contato" method="post">
                     <div class="form-group">
-                        <input type="text" class="form-control" name="nome" placeholder="Nome:" value="<?php echo $contato_nome; ?>"/>
+                        <input type="text" class="form-control" name="nome" placeholder="Nome:"
+                               value="<?php echo $contato_nome; ?>"/>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email:"/>
+                        <input type="email" class="form-control" name="email" placeholder="Email:"
+                               value="<?php echo $contato_email; ?>"/>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="assunto" placeholder="Assunto"/>
+                        <input type="text" class="form-control" name="assunto" placeholder="Assunto"
+                               value="<?php echo $contato_assunto; ?>"/>
                     </div>
                     <div class="form-group">
                         <textarea class="form-control" name="menssagem" placeholder="Menssagem"
-                                  style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">
-
+                                  style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 0px;">
+                            <?php echo $contato_menssagem; ?>
                         </textarea>
                     </div>
                     <div class="box-footer clearfix">
