@@ -1,0 +1,17 @@
+[01-Oct-2014 14:55:23 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 39
+[01-Oct-2014 14:55:23 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 40
+[01-Oct-2014 14:55:23 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 41
+[01-Oct-2014 14:55:31 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 39
+[01-Oct-2014 14:55:31 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 40
+[01-Oct-2014 14:55:31 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 41
+[01-Oct-2014 14:55:58 America/Sao_Paulo] PHP Notice:  Undefined variable: result in /home/paulo/CursoPHP/AreaAdministrativa2/Core/Fixture.php on line 32
+[01-Oct-2014 15:05:30 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 39
+[01-Oct-2014 15:05:30 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 40
+[01-Oct-2014 15:05:30 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/CursoPHP/AreaAdministrativa2/Empresa/EmpresaController.php on line 41
+[03-Oct-2014 21:29:30 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/Downloads/ProjetoAreaAdministrativa-master/Empresa/EmpresaController.php on line 39
+[03-Oct-2014 21:29:30 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/Downloads/ProjetoAreaAdministrativa-master/Empresa/EmpresaController.php on line 40
+[03-Oct-2014 21:29:30 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/Downloads/ProjetoAreaAdministrativa-master/Empresa/EmpresaController.php on line 41
+[04-Oct-2014 20:51:55 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/paulo/NetBeansProjects/PhpProject2/Core/Model.php on line 25
+[04-Oct-2014 20:57:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/NetBeansProjects/PhpProject2/Empresa/EmpresaController.php on line 39
+[04-Oct-2014 20:57:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/NetBeansProjects/PhpProject2/Empresa/EmpresaController.php on line 40
+[04-Oct-2014 20:57:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /home/paulo/NetBeansProjects/PhpProject2/Empresa/EmpresaController.php on line 41
