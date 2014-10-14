@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'rotas'=>[
+    'rotas' => [
         'index',
         'user',
         'auth',
@@ -13,8 +13,8 @@ return [
     'db' => [
         'host' => 'localhost',
         'banco' => 'mysql',
-        'dbname' => 'c1fixture',
-        'user' => 'c1fixture',
+        'dbname' => 'fixture',
+        'user' => 'root',
         'pass' => 'k8xw37zl'
     ],
     'email' => [
