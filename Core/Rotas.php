@@ -4,7 +4,11 @@ namespace Core;
 
 class Rotas
 {
+<<<<<<< HEAD
     private $url;
+=======
+    public $url;
+>>>>>>> 71f99c17f7845093e3092ea7df6c537b811dff65
     private $error = array();
     public $app; //diretorio do aplicativo
     private $objController;
@@ -12,6 +16,7 @@ class Rotas
     private $params;
 
     public function __construct()
+<<<<<<< HEAD
     {        
         /**
          * obtendo a url atraves do htaccess ou do PHP
@@ -66,6 +71,31 @@ class Rotas
     /**
      * retorna o caminho da pasta do APP
      */
+=======
+    {
+
+        $this->getUrl();
+
+    }
+
+    private function getUrl()
+    {
+        $url = $this->getUrlDefault();
+
+        $this->url = (isset($urlDefault) ? $urlDefault : (isset($url[0]) ? $url : ["index"]));
+
+        $this->setApp();
+
+    }
+
+    private function getUrlDefault()
+    {
+        $url = preg_split("[\\/]", $_SERVER["REQUEST_URI"], -1, PREG_SPLIT_NO_EMPTY);
+
+        return $url;
+    }
+
+>>>>>>> 71f99c17f7845093e3092ea7df6c537b811dff65
     private function setApp()
     {
         $app = ucfirst($this->url[0]);

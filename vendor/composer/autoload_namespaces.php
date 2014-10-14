@@ -9,7 +9,10 @@ return array(
 
     'Config\\' => array($baseDir),
     'Core\\' => array($baseDir),
+<<<<<<< HEAD
     'Erro\\' => array($baseDir),
+=======
+>>>>>>> 71f99c17f7845093e3092ea7df6c537b811dff65
     'Index\\' => array($baseDir),
     'Auth\\' => array($baseDir),
     'Pessoa\\' => array($baseDir),
