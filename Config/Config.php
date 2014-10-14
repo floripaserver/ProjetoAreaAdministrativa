@@ -1,7 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
     'rotas' => [
         'index',
         'user',
@@ -11,8 +10,6 @@ return [
         'servico',
         'contato'
     ],
-=======
->>>>>>> 71f99c17f7845093e3092ea7df6c537b811dff65
     'db' => [
         'host' => 'localhost',
         'banco' => 'mysql',
